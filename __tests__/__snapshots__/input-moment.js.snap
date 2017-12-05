@@ -5,17 +5,17 @@ exports[`render 1`] = `
   className="m-input-moment"
 >
   <div
-    className="options"
+    className="input-moment-options"
   >
     <button
-      className="ion-calendar im-btn is-active"
+      className="ion-calendar input-moment-im-btn is-active"
       onClick={[Function]}
       type="button"
     >
       Date
     </button>
     <button
-      className="ion-clock im-btn"
+      className="ion-clock input-moment-im-btn"
       onClick={[Function]}
       type="button"
     >
@@ -23,16 +23,16 @@ exports[`render 1`] = `
     </button>
   </div>
   <div
-    className="tabs"
+    className="input-moment-tabs"
   >
     <div
-      className="m-calendar tab is-active"
+      className="input-moment-calendar input-moment-tab is-active"
     >
       <div
-        className="toolbar"
+        className="input-moment-toolbar"
       >
         <button
-          className="prev-month"
+          className="input-moment-prev-month"
           onClick={[Function]}
           type="button"
         >
@@ -46,7 +46,7 @@ exports[`render 1`] = `
           August 2018
         </span>
         <button
-          className="next-month"
+          className="input-moment-next-month"
           onClick={[Function]}
           type="button"
         >
@@ -84,19 +84,19 @@ exports[`render 1`] = `
         <tbody>
           <tr>
             <td
-              className="prev-month"
+              className="input-moment-prev-month"
               onClick={[Function]}
             >
               29
             </td>
             <td
-              className="prev-month"
+              className="input-moment-prev-month"
               onClick={[Function]}
             >
               30
             </td>
             <td
-              className="prev-month"
+              className="input-moment-prev-month"
               onClick={[Function]}
             >
               31
@@ -296,7 +296,7 @@ exports[`render 1`] = `
               31
             </td>
             <td
-              className="next-month"
+              className="input-moment-next-month"
               onClick={[Function]}
             >
               1
@@ -304,43 +304,43 @@ exports[`render 1`] = `
           </tr>
           <tr>
             <td
-              className="next-month"
+              className="input-moment-next-month"
               onClick={[Function]}
             >
               2
             </td>
             <td
-              className="next-month"
+              className="input-moment-next-month"
               onClick={[Function]}
             >
               3
             </td>
             <td
-              className="next-month"
+              className="input-moment-next-month"
               onClick={[Function]}
             >
               4
             </td>
             <td
-              className="next-month"
+              className="input-moment-next-month"
               onClick={[Function]}
             >
               5
             </td>
             <td
-              className="next-month"
+              className="input-moment-next-month"
               onClick={[Function]}
             >
               6
             </td>
             <td
-              className="next-month"
+              className="input-moment-next-month"
               onClick={[Function]}
             >
               7
             </td>
             <td
-              className="next-month"
+              className="input-moment-next-month"
               onClick={[Function]}
             >
               8
@@ -350,37 +350,37 @@ exports[`render 1`] = `
       </table>
     </div>
     <div
-      className="m-time tab"
+      className="input-moment-m-time input-moment-tab"
     >
       <div
-        className="showtime"
+        className="input-moment-showtime"
       >
         <span
-          className="time"
+          className="input-moment-time"
         >
           08
         </span>
         <span
-          className="separater"
+          className="input-moment-separater"
         >
           :
         </span>
         <span
-          className="time"
+          className="input-moment-time"
         >
           08
         </span>
       </div>
       <div
-        className="sliders"
+        className="input-moment-sliders"
       >
         <div
-          className="time-text"
+          className="input-moment-time-text"
         >
           Hours:
         </div>
         <div
-          className="u-slider u-slider-x u-slider-time"
+          className="u-slider u-slider-x input-moment-u-slider-time"
           onClick={[Function]}
         >
           <div
@@ -405,12 +405,12 @@ exports[`render 1`] = `
           />
         </div>
         <div
-          className="time-text"
+          className="input-moment-time-text"
         >
           Minutes:
         </div>
         <div
-          className="u-slider u-slider-x u-slider-time"
+          className="u-slider u-slider-x input-moment-u-slider-time"
           onClick={[Function]}
         >
           <div
